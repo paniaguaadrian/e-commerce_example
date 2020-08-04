@@ -1,0 +1,65 @@
+/* generals */
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 100%;
+}
+
+body {
+    margin: 10px 50px;
+    padding: 0;
+    background-color: rgba(189, 22, 189, 0.589);
+
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    border: 5px solid purple;
+    text-align: center;
+
+}
+
+#items {
+    background-color: lightblue;
+
+
+}
+
+ul {
+    list-style: none;
+    align-items: center;
+}
+
+li {
+    padding: 15px;
+    border: 1px solid purple;
+
+}
+
+#cart {
+    background-color: salmon;
+
+}
+
+#cart,
+#items {
+    width: 50vh;
+    margin: 0;
+    padding: 15px;
+
+}
+
+
+
+
+img {
+    width: 50px;
+    border: 3px solid black;
+
+}
